@@ -19,7 +19,7 @@ CONFIG_AUTH_PASSWORD=INSERT YOUR PASSWORD
 
 ## Set Payload in Node JS as Publisher
 ```js
-({
+{
     mail:["ADDRESS_MAIL_YOU_WANT_SEND@gmail.com"],
     message:`Tanngal Kirim/ Date Sent ${today.toISOString()} | En: This Message send auto, Id:Ini Pesan dikirim Secara Otomatis`
 }
