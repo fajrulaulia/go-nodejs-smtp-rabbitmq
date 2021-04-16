@@ -8,7 +8,7 @@ this is repo how to use rabbitMQ
 - NodeJS as Publish
 - Node JS Send Email Address and Message, then throw a payload to worker and send it to smtp to send to client email
 
-# Enviroment Consumer
+## Enviroment Consumer
 ```env
 CONFIG_SMTP_HOST=smtp.gmail.com OR Anything
 CONFIG_SMTP_PORT=587 OR Anything
@@ -17,7 +17,7 @@ CONFIG_AUTH_EMAIL=INSERT YOUR EMAIL
 CONFIG_AUTH_PASSWORD=INSERT YOUR PASSWORD
 ```
 
-# Set Payload in Node JS
+## Set Payload in Node JS as Publisher
 ```js
 ({
     mail:["ADDRESS_MAIL_YOU_WANT_SEND@gmail.com"],
