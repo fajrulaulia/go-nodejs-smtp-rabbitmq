@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/fajrulaulia/go-smtp-rabbitmq"
+  },
+  "author": "fajrul aulia",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.7.1"
+  }
+}
